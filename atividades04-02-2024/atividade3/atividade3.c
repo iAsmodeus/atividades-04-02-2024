@@ -5,12 +5,14 @@
 que receba estas 2 variáveis e troque o conteúdo de ambas.
 */
 
-int trocaValores(int x, int y){
+void trocaValores(int x, int y){
 
     int z;
-    z = y && y = x && x = z;
+    z = y;
+    y = x;
+    x = z;
 
-    return y,z;
+    return;
 
 }
 
